@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*fonts
+====================*/
+@font-face {
+  font-family: "Din-Medium";
+  src: url("../vendor/fonts/din-next-lt-w23-medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Din-Regular";
+  src: url("../vendor/fonts/din-next-lt-w23-regular.ttf");
+  font-weight: bold;
+}
+
+/*body
+===========================*/
+body {
+	font-family: "Din-Regular";
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #252829;
+  overflow-x: hidden;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Links
+==========================*/
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/* Headings
+========================== */
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  margin: 0;
+  font-family: "Din-Medium";
+}
+
+p {
+  margin: 0;
+}
+
+.text-light{
+	font-family: "Din-Regular" !important;
+}
+.text-bold{
+	font-family: "Din-Medium" !important;
+}
+/*Lists
+==========================*/
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100%;
+}
+/*class
+==================*/

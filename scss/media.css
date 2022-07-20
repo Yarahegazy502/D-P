@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+  .productts .pillss .nav-pills .shopProducts {
+    font-size: 16px;
+  }
+  .productts .pillss .nav-pills .nav-link {
+    padding: 0 1rem;
+    color: #777;
+    font-size: 14px;
+  }
+}
+@media (max-width: 565px) {
+  .productts .pillss .nav-pills .shopProducts {
+    font-size: 12px;
+    padding: 7px;
+  }
+  .productts .pillss .nav-pills .nav-link {
+    padding: 0 0.4rem;
+    color: #777;
+    font-size: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .productts .pillss .nav-pills .shopProducts {
+    display: none;
+  }
+  .productts .pillss .nav-pills .nav-link {
+    padding: 0 1rem;
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=media.css.map */

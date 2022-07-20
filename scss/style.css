@@ -1,0 +1,424 @@
+/*fonts
+====================*/
+@font-face {
+  font-family: "Din-Medium";
+  src: url("../vendor/fonts/din-next-lt-w23-medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Din-Regular";
+  src: url("../vendor/fonts/din-next-lt-w23-regular.ttf");
+  font-weight: bold;
+}
+/*body
+===========================*/
+body {
+  font-family: "Din-Regular";
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #252829;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Links
+==========================*/
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/* Headings
+========================== */
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  margin: 0;
+  font-family: "Din-Medium";
+}
+
+p {
+  margin: 0;
+}
+
+.text-light {
+  font-family: "Din-Regular" !important;
+}
+
+.text-bold {
+  font-family: "Din-Medium" !important;
+}
+
+/*Lists
+==========================*/
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/*class
+==================*/
+nav img {
+  width: 150px;
+}
+nav .searchInputAndLinks input {
+  border: 0;
+  background-color: #f0f0f0;
+  border-bottom-right-radius: 15px;
+  color: #602c1b;
+}
+nav .searchInputAndLinks .input-group-text {
+  border: 0;
+  background-color: transparent;
+  background-color: #f0f0f0;
+  border-top-left-radius: 15px;
+  color: #602c1b;
+}
+nav .searchInputAndLinks .navbarIcons {
+  margin-right: auto;
+}
+nav .searchInputAndLinks .navbarIcons div {
+  background-color: #fce7a0;
+  color: #602c1b;
+  margin: 10px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+nav .searchInputAndLinks .navbar-nav li a {
+  font-size: 17px;
+  color: #777;
+  margin: 0 7px;
+  text-transform: uppercase;
+}
+
+.mainNavbarIcons .navbarIcons {
+  margin-right: auto;
+}
+.mainNavbarIcons .navbarIcons div {
+  background-color: #fce7a0;
+  color: #602c1b;
+  margin: 10px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.searchInputAndLinks2 {
+  margin-right: auto;
+}
+
+.carousel .carousel-caption {
+  top: 35%;
+}
+.carousel .carousel-caption h5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #602c1b;
+}
+.carousel .carousel-caption p {
+  font-size: 18px;
+}
+.carousel .carousel-indicators .active {
+  background-color: #602c1b;
+}
+.carousel .carousel-control-next-icon,
+.carousel .carousel-control-prev-icon {
+  display: none;
+}
+
+.filteredPerfum .dropdown {
+  border: 1px solid #602c1b;
+  margin: 0 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+}
+.filteredPerfum .dropdown .nav-link {
+  color: #ccc;
+  font-size: 17px;
+}
+.filteredPerfum .dropdown i {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.productts .pillss .nav-pills {
+  position: relative;
+}
+.productts .pillss .nav-pills .shopProducts {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  background-color: #602c1b;
+  color: #fce7a0;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.productts .pillss .nav-pills .nav-link {
+  position: relative;
+  padding: 0 1rem;
+  color: #777;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.productts .pillss .nav-pills .nav-link.active, .productts .pillss .nav-pills .nav-link .nav-pills .show > .nav-link {
+  background-color: transparent;
+  color: #602c1b;
+}
+.productts .pillss .nav-pills .nav-link.active::after, .productts .pillss .nav-pills .nav-link .nav-pills .show > .nav-link::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #602c1b;
+  bottom: -22px;
+  position: absolute;
+  left: 50%;
+}
+.productts .pillss hr {
+  background-color: #7d0c0c;
+  padding: 1px;
+}
+.productts .pillss .tab-content .products {
+  z-index: 1;
+}
+.productts .pillss .tab-content .products .content p, .productts .pillss .tab-content .products .content del {
+  color: #777;
+}
+.productts .pillss .tab-content .products .content del {
+  margin-right: 20px;
+}
+.productts .pillss .tab-content .products .content .updated {
+  color: #602c1b;
+  font-weight: bold;
+}
+.productts .pillss .tab-content .products .content button {
+  background-color: #602c1b;
+  color: #fce7a0;
+  border: 0;
+  padding: 5px 10px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.productts .pillss .tab-content .products .cart div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  background-color: #eee;
+  z-index: 2;
+}
+.productts .pillss .tab-content .products .singleProduct:hover {
+  border: 1px solid #602c1b;
+}
+.productts .view button {
+  color: #602c1b;
+  border: 2px solid #602c1b;
+  padding: 7px 25px;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.collections .collection {
+  margin: 20px 0;
+}
+.collections .collection p {
+  font-size: 17px;
+  color: #777;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.collections .collection button {
+  border: 2px solid #7d0c0c;
+  color: #7d0c0c;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.flavor {
+  position: relative;
+}
+.flavor .shadow {
+  position: relative;
+}
+.flavor .shadow .new {
+  position: absolute;
+  margin: 10px;
+}
+.flavor .shadow .new button {
+  background-color: #fce7a0;
+  color: #602c1b;
+  padding: 5px 10px;
+  border: 0;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.flavor hr {
+  background-color: #7d0c0c;
+  padding: 1px;
+}
+.flavor .flavorBtns button:nth-child(1) {
+  background-color: #602c1b;
+  font-size: 18px;
+  border: 0;
+  color: #fce7a0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.flavor .flavorBtns button:nth-child(2) {
+  background-color: #fff;
+  font-size: 18px;
+  border: 2px solid #602c1b;
+  color: #602c1b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.flavor .products {
+  z-index: 1;
+}
+.flavor .products .content p, .flavor .products .content del {
+  color: #777;
+}
+.flavor .products .content del {
+  margin-right: 20px;
+}
+.flavor .products .content .updated {
+  color: #602c1b;
+  font-weight: bold;
+}
+.flavor .products .content button {
+  background-color: #602c1b;
+  color: #fce7a0;
+  border: 0;
+  padding: 5px 10px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.flavor .products .cart div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  background-color: #eee;
+  z-index: 2;
+}
+.flavor .products .singleProduct:hover {
+  border: 1px solid #602c1b;
+}
+
+.blog {
+  position: relative;
+}
+.blog .blogBtn {
+  background-color: #602c1b;
+  color: #fce7a0;
+  border: 0;
+  padding: 10px 30px;
+}
+.blog hr {
+  position: relative;
+  top: -17px;
+  background-color: #7d0c0c;
+  padding: 1px;
+}
+.blog .jun div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #7d0c0c;
+  color: #7d0c0c;
+  background-color: #fff;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+.blog .content p {
+  color: #777;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+.blog .bloog .blogContent {
+  margin: 0 20px;
+}
+.blog .bloog button {
+  color: #7d0c0c;
+}
+
+footer {
+  background-color: #eee;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+footer .img img {
+  width: 150px;
+}
+footer .follow div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #7d0c0c;
+  color: #d7e204;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+footer .follow i {
+  font-size: 19px;
+}
+footer .store p {
+  color: #777;
+  line-height: 1.8;
+  font-size: 17px;
+}
+footer .store i {
+  margin-right: 10px;
+}
+footer .followUs {
+  border-left: 1px solid #7d0c0c;
+  border-right: 1px solid #7d0c0c;
+}
+footer .copyRight {
+  color: #777;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
