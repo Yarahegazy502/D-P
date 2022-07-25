@@ -73,6 +73,17 @@ img {
 
 /*class
 ==================*/
+.navbars {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 6;
+}
+
+.navbar2 {
+  display: none;
+}
+
 nav img {
   width: 150px;
 }
@@ -106,11 +117,10 @@ nav .searchInputAndLinks .navbar-nav li a {
   margin: 0 7px;
   text-transform: uppercase;
 }
-
-.mainNavbarIcons .navbarIcons {
+nav .mainNavbarIcons .navbarIcons {
   margin-right: auto;
 }
-.mainNavbarIcons .navbarIcons div {
+nav .mainNavbarIcons .navbarIcons div {
   background-color: #fce7a0;
   color: #602c1b;
   margin: 10px;
@@ -238,8 +248,11 @@ nav .searchInputAndLinks .navbar-nav li a {
   background-color: #eee;
   z-index: 2;
 }
-.productts .pillss .tab-content .products .singleProduct:hover {
+.productts .pillss .tab-content .products .pproducts:hover .singleProduct {
   border: 1px solid #602c1b;
+}
+.productts .pillss .tab-content .products .pproducts:hover .cart2 {
+  border-top: 2px solid #602c1b;
 }
 .productts .view button {
   color: #602c1b;
@@ -342,8 +355,11 @@ nav .searchInputAndLinks .navbar-nav li a {
   background-color: #eee;
   z-index: 2;
 }
-.flavor .products .singleProduct:hover {
+.flavor .products .pproducts:hover .singleProduct {
   border: 1px solid #602c1b;
+}
+.flavor .products .pproducts:hover .cart2 {
+  border-top: 2px solid #602c1b;
 }
 
 .blog {

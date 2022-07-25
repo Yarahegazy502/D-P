@@ -36,3 +36,18 @@ $('.bloog').slick({
     // instead of a settings object
   ]
 });
+
+let nav1=document.querySelector(".navbar1");
+let nav2=document.querySelector(".navbar2");
+
+
+window.addEventListener('scroll', function() {
+  console.log(window.pageYOffset + 'px');
+  if(window.pageYOffset>150){
+    nav1.style.display="none";
+    nav2.style.display="block"
+  }else{
+    nav1.style.display="block";
+    nav2.style.display="none"
+  }
+});

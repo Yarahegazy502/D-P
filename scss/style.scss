@@ -24,7 +24,16 @@ $gray:#777;
             -o-border-radius: 5px;
 }
 // navbar
-nav{
+.navbars{
+position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 6;
+}
+.navbar2{
+        display:none
+    }
+nav{   
     img{
         width: 150px;
     }
@@ -65,9 +74,8 @@ nav{
                 }
             }
     }
-}
-.mainNavbarIcons{
-         .navbarIcons {
+    .mainNavbarIcons{
+        .navbarIcons {
             margin-right: auto;
             div{
                 background-color: $second_color;
@@ -79,6 +87,8 @@ nav{
             }
 }
 }
+}
+
 .searchInputAndLinks2{
     margin-right: auto;
 }
@@ -198,8 +208,11 @@ nav{
                             z-index: 2;}
                 }
 
-                .singleProduct:hover{
+                .pproducts:hover .singleProduct{
                     border: 1px solid $main_color;
+                }
+                .pproducts:hover .cart2{
+                    border-top: 2px solid $main_color;
                 }
             }
             
@@ -314,9 +327,11 @@ nav{
                             z-index: 2;
                         }
                 }
-
-                .singleProduct:hover{
+                .pproducts:hover .singleProduct{
                     border: 1px solid $main_color;
+                }
+                .pproducts:hover .cart2{
+                    border-top: 2px solid $main_color;
                 }
             }
 }
